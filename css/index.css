@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/*调整导航条的最小高度*/
+.navbar-inverse {
+    min-height: 70px;
+    background-color: #222;
+}
+
+/*修改导航条  居中*/
+.navbar-inverse .navbar-toggle {
+    margin-top: 18px;
+}
+
+#myTopNav {
+    padding-top: 10px;
+}
+
+/*导航条 a 标签 字体颜色*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+/*调整导航条 导航*/
+#myTopNav {
+    padding-top: 10px;
+}
+
+/*清除掉导航条  LOGO a 标签的上下 padding*/
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-header > a img {
+    width: 100%;
+}
+
+/*导航条的 new 热点图片*/
+.new-nav-hot {
+    display: inline-block;
+    width: 38px;
+    height: 21px;
+    line-height: 21px;
+    border-radius: 4px;
+    background-color: #d9534f;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/*
+    导航条 注册登录
+    媒体查询
+*/
+@media screen and (max-width: 767px) {
+    #login {
+        position: absolute;
+        top: 10px;
+        right: 100px;
+    }
+
+    #login li {
+        float: left;
+    }
+}
+
+/*bg 轮播 背景 */
+.banner-bg {
+    margin-top: 70px;
+    background: url("../images/bannerbg.png");
+}
+
+/*轮播图图片*/
+.banner-img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.banner-img .col-md-8 img {
+    width: 100%;
+}
+
+/*轮播图圆点背景色*/
+.swiper-pagination-bullet {
+
+}
+
+/*轮播图 右边新闻*/
+.banner-right-bg {
+    padding: 10px 14px;
+    width: 100%;
+    float: right;
+    background-color: #fff;
+}
+
+/*h3  标签*/
+.banner-right-bg h3 {
+    color: #333333;
+    font-size: 24px;
+}
+
+.banner-right-bg img {
+    margin-top: 6px;
+    width: 100%;
+}
+
+/* ul 标签*/
+.banner-right-bg .nav {
+    margin-top: 10px;
+}
+
+/* a 标签*/
+.banner-right-bg .nav > li > a {
+    padding-left: 0;
+    font-size: 14px;
+    color: #000017;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*虚线 边框线*/
+.banner-right-bg .nav > li:nth-of-type(2) {
+    border-bottom: 1px dashed #999;
+}
+
+/*适应轮播图 新闻资讯*/
+/*@media screen and (max-width: 767px){*/
+/*.banner-right-bg{*/
+/*width: 100%;*/
+/*float: left;*/
+/*}*/
+/*}*/
+/*技能课*/
+.nav-tabs > li > a {
+    color: #000017;
+}
+
+/*主体内容距离上一距离*/
+section {
+    margin-top: 20px;
+}
+
+#biank {
+    border: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#border-four .banner-right-bg {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*中间单独一图片张*/
+#img-center img {
+    width: 100%;
+}
+
+/*活动  导航 nav-tabs*/
+.nav-tabs > li > a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+/*买票价钱*/
+.tab-content span {
+    font-size: 30px;
+    color: #2ed2c1;
+}
+
+/*part-show-top  部分 演出  买票*/
+.part-show-top h3 {
+    font-size: 20px;
+    color: #f8fefd;
+    background-color: #2ed2c1;
+    padding: 16px 0 16px 4px;
+}
+
+.part-show-top h3 span {
+    font-size: 14px;
+}
+
+.part-show-top h5 {
+    font-size: 14px;
+    color: #333333;
+}
+
+.part-show-top span {
+    color: #2ed2c1;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+/*媒体对象 新闻  图分格式*/
+.media {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.media-heading {
+    font-size: 14px;
+}
+
+.media-body p {
+    margin-bottom: 0;
+}
+
+.part-show-top > h4 {
+    font-size: 14px;
+    color: #2ed2c1;
+    margin: 20px 0;
+}
+
+/*热销类表*/
+.hot-list {
+    border: 1px solid #ccc;
+    padding: 15px 10px;
+}
+
+.hot-list h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+.hot-list ul{
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+.hot-list li{
+    padding: 4px 0;
+    border-bottom: 1px dashed #ccc;
+}
+/*结尾部分*/
+footer{
+    background-color: #252525;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer .media{
+    border-bottom: 0;
+}
+footer .media-body h4{
+    color: #777777;
+    font-size: 24px;
+}
+footer .media-body p{
+    color: #777777;
+    font-size: 14px;
+}
+.fooder-beian{
+    text-align: center;
+    color: #777777;
+}
